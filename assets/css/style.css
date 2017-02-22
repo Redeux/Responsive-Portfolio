@@ -216,3 +216,147 @@ footer {
 	justify-content: center;
 	color: lightgray;
 }
+
+
+/* Media Queries */
+@media screen and (max-width: 980px) {
+
+	.nav-content {
+		margin: 0 auto;
+		width: 800px;
+	}
+
+	.main {
+		margin: 0 auto;
+		width: 800px;
+	}
+
+	.about-box,
+	.form-box,
+	.portfolio-box {
+		width: 400px;
+	}
+	
+	#raleigh-img {
+		float: none;
+		margin: 0 0 10px 0;
+	}
+}
+
+@media screen and (max-width: 768px) {
+
+	.nav-content {
+		margin: 0 auto;
+		width: 650px;
+	}
+
+	.main {
+		margin: 0 auto;
+		width: 650px;
+	}
+	
+	.about-box,
+	.form-box,
+	.portfolio-box {
+		width: 550px;
+		margin-bottom: 25px;
+	}
+	#raleigh-img {
+		float: left;
+		padding-right: 10px;
+	}
+
+	.connect-box {
+		width: 550px;
+		padding: 0 45px;
+		float: none;
+	}
+
+	.stretch {
+	    width: 0%;
+	}
+	
+	.gallary-content {
+		margin: 0 10px 20px 10px;
+	}
+}
+
+@media screen and (max-width: 640px) {
+	
+
+	body {
+		width: 640px;
+		margin: 0;
+	}
+
+	nav {
+		position: static;
+	}
+
+	.logo {
+	display: block;
+	margin: 0;
+	height: 80px;
+	padding: 0px 45px;
+	text-align: center;
+	}
+
+	.logo p {
+		margin-top: 0;
+		padding-top: 20px;
+	}
+	.main {
+		width: 600px;
+		margin: 0 auto;
+	}
+
+	.nav-links {
+	margin: 0 auto;
+	height: 30px;
+	float: none;
+	padding-top: 10px;
+	}
+
+	.break {
+		margin: 0 15px;
+	}
+	.about-box,
+	.form-box,
+	.portfolio-box {
+	padding: 0 20px;
+	}
+
+	#raleigh-img {
+		width: 550px;
+		height: 300px;
+		float: none;
+		display: block;
+		margin: 0 auto;
+		margin-right: 0;
+		margin-bottom: 20px;
+	}
+
+	.about-box p {
+		line-height: 1.5em;
+	}
+
+	.gallary-content {
+		margin: 0 0 20px 0;
+	}
+	.gallary-content img {
+		width: 550px;
+		height: 325px;
+	}
+
+	.connect-box {
+		padding: 0 20px;
+	
+	}
+
+	footer {
+		width: 100%;
+		margin: 15px 0 0 0;
+	}
+	
+}
+

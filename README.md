@@ -1,3 +1,3 @@
-# Basic-Portfolio
+# Responsive-Portfolio
 
-First portfolio for UNC's Coding Bootcamp 2017.
+Responsive portfolio for UNC's Coding Bootcamp 2017.
